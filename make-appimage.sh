@@ -11,7 +11,6 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/128x128/apps/supertuxkart.png
 export DESKTOP=/usr/share/applications/supertuxkart.desktop
 export DEPLOY_OPENGL=1
-export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/supertuxkart
