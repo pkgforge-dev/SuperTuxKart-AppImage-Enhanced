@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm supertuxkart pipewire-audio libdecor
+pacman -Syu --noconfirm supertuxkart libdecor
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
