@@ -1,24 +1,28 @@
-# SuperTuxKart-AppImage-Enhanced 🐧
+# SuperTuxKart AppImage-Enhanced 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/SuperTuxKart-AppImage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/SuperTuxKart-AppImage-Enhanced/releases/latest)
 [![CI Build Status](https://github.com//pkgforge-dev/SuperTuxKart-AppImage-Enhanced/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/SuperTuxKart-AppImage-Enhanced/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/SuperTuxKart-AppImage-Enhanced)](https://github.com/pkgforge-dev/SuperTuxKart-AppImage-Enhanced/releases/latest)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/supertuxkart/stk-code/refs/heads/master/data/supertuxkart_128.png" width="128" />
 </p>
 
-* [Latest Stable Release](https://github.com/pkgforge-dev/SuperTuxKart-AppImage-Enhanced/releases/latest)
+* [Upstream URL](https://github.com/supertuxkart/stk-code)
 
 ---
 
-AppImage made using [sharun](https://github.com/VHSgunzo/sharun), which makes it extremely easy to turn any binary into a portable package without using containers or similar tricks. 
+Enhanced AppImage compared to the upstream one, made using [sharun](https://github.com/VHSgunzo/sharun) and its wrapper [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it easy and reliable to turn any binary into a portable package without using containers or similar tricks. 
 
-**This AppImage bundles everything and should work on any linux distro, even on musl based ones.**
+**This AppImage bundles everything and it should work on any Linux distro, including old and musl-based ones.**
 
-This appimage works without fuse2 as it can use fuse3 instead, it can also work without fuse at all thanks to the [uruntime](https://github.com/VHSgunzo/uruntime)
+This AppImage doesn't require FUSE to run at all, thanks to the [uruntime](https://github.com/VHSgunzo/uruntime).
+
+This AppImage is also supplied with the seamless self-updater by default, so any updates to this application won't be missed.  
+Self-updater doesn't run if AppImage managers like [am](https://github.com/ivan-hc/AM) or [soar](https://github.com/pkgforge/soar) exist, which manage AppImage integration and updates.
 
 <details>
-  <summary><b><i>raison d'être</i></b></summary>
+  <summary><b><i>Filesize efficiency compared to flatpak</i></b></summary>
     <img src="https://github.com/user-attachments/assets/29576c50-b39c-46c3-8c16-a54999438646" alt="Inspiration Image">
   </a>
 </details>
