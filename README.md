@@ -1,3 +1,5 @@
+<div align="center">
+
 # SuperTuxKart AppImage-Enhanced 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/SuperTuxKart-AppImage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/SuperTuxKart-AppImage-Enhanced/releases/latest)
@@ -8,7 +10,11 @@
   <img src="https://raw.githubusercontent.com/supertuxkart/stk-code/refs/heads/master/data/supertuxkart_128.png" width="128" />
 </p>
 
-* [Upstream URL](https://github.com/supertuxkart/stk-code)
+| Latest Stable Release | Upstream URL |
+| :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/SuperTuxKart-AppImage-Enhanced/releases/latest) | [Click here](https://github.com/supertuxkart/stk-code) |
+
+</div>
 
 ---
 
